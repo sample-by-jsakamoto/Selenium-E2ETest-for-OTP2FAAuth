@@ -1,5 +1,6 @@
 *.user
 *.suo
+*.db
 appSettings.Development.json
 .vs/
 bin/
