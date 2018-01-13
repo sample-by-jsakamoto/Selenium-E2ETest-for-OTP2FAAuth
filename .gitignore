@@ -1,0 +1,7 @@
+*.user
+*.suo
+appSettings.Development.json
+.vs/
+bin/
+obj/
+node_modules/

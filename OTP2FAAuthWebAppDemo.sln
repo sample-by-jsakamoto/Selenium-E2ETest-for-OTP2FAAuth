@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OTP2FAAuthWebAppDemo", "OTP2FAAuthWebAppDemo\OTP2FAAuthWebAppDemo.csproj", "{3778D286-D497-4B58-A6F1-80E5340020E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticatorConsoleAppDemo", "AuthenticatorConsoleAppDemo\AuthenticatorConsoleAppDemo.csproj", "{CB6482E9-940F-4BF3-BA45-1E3DBD390CB0}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E91282BD-A62D-44B4-993D-809C185171F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTP2FAAuthWebAppDemo.E2ETest", "OTP2FAAuthWebAppDemo.E2ETest\OTP2FAAuthWebAppDemo.E2ETest.csproj", "{EB3D6CA0-7DAF-4AEA-99FB-900631B8C24A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3778D286-D497-4B58-A6F1-80E5340020E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3778D286-D497-4B58-A6F1-80E5340020E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3778D286-D497-4B58-A6F1-80E5340020E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3778D286-D497-4B58-A6F1-80E5340020E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB6482E9-940F-4BF3-BA45-1E3DBD390CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB6482E9-940F-4BF3-BA45-1E3DBD390CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB6482E9-940F-4BF3-BA45-1E3DBD390CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB6482E9-940F-4BF3-BA45-1E3DBD390CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E91282BD-A62D-44B4-993D-809C185171F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E91282BD-A62D-44B4-993D-809C185171F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E91282BD-A62D-44B4-993D-809C185171F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E91282BD-A62D-44B4-993D-809C185171F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB3D6CA0-7DAF-4AEA-99FB-900631B8C24A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3D6CA0-7DAF-4AEA-99FB-900631B8C24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3D6CA0-7DAF-4AEA-99FB-900631B8C24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3D6CA0-7DAF-4AEA-99FB-900631B8C24A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E1E9761-72CF-451C-A31C-4D629A679CDB}
+	EndGlobalSection
+EndGlobal
