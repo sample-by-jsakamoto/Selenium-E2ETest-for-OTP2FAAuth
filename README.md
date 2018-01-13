@@ -30,7 +30,8 @@ C# on .NET Core 2.0 + xUnit + Selenium
 
 ### How to compute 2FA code?
 
-Powered by **[Otp.NET](https://www.nuget.org/packages/Otp.NET/)** 
+Powered by **[Otp.NET](https://www.nuget.org/packages/Otp.NET/)** [![NuGet Package](https://img.shields.io/nuget/v/Otp.NET.svg)](https://www.nuget.org/packages/Otp.NET/)
+
 
 
 ## License
