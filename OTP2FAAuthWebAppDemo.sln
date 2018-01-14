@@ -9,7 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticatorConsoleAppDemo
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E91282BD-A62D-44B4-993D-809C185171F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTP2FAAuthWebAppDemo.E2ETest", "OTP2FAAuthWebAppDemo.E2ETest\OTP2FAAuthWebAppDemo.E2ETest.csproj", "{EB3D6CA0-7DAF-4AEA-99FB-900631B8C24A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OTP2FAAuthWebAppDemo.E2ETest", "OTP2FAAuthWebAppDemo.E2ETest\OTP2FAAuthWebAppDemo.E2ETest.csproj", "{EB3D6CA0-7DAF-4AEA-99FB-900631B8C24A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "README", "README", "{A13EB35F-C2FA-426A-A991-911842ADF0BA}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
