@@ -4,13 +4,6 @@
 
 C# on .NET Core 2.0 + ASP.NET Core 2.0 + EFCore 2.0 + SQLite
 
-## Preset Test Account
-
-- Account Name: `foo@example.com`
-- Password: `P@ssw0rd`
-- Key for two factor authenticator App: `6jm7n6xwitpjooh7ihewyyzeux7aqmw2`  
-![QR code for Two factor athenticator app](.asset/otp-2fa-qrcode.png)
-
 ### Docker Image
 
 You can pull the docker image of this Test Target Demonstration Web Site from bellow.
@@ -28,6 +21,14 @@ You can run the demo app server by following command.
 ```shell
 > docker run -p 52375:80 -d samplebyjsakamoto/otp2faauthwebappdemo:latest
 ```
+
+## Preset Test Account
+
+- Account Name: `foo@example.com`
+- Password: `P@ssw0rd`
+- Key for two factor authenticator App: `6jm7n6xwitpjooh7ihewyyzeux7aqmw2`  
+![QR code for Two factor athenticator app](.asset/otp-2fa-qrcode.png)
+
 
 ## E2E Test Program
 
