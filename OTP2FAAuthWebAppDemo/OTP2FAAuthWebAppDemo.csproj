@@ -15,4 +15,10 @@
     <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.0" />
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
   </ItemGroup>
+  <Target Name="PrepublishScript" BeforeTargets="PrepareForPublish">
+    <ItemGroup>
+      <DbFile Include="$(ProjectDir)OTP2FAAuthWebAppDemo.db" />
+    </ItemGroup>
+    <Copy SourceFiles="@(DbFile)" DestinationFolder="$(PublishDir)" />
+  </Target>
 </Project>
