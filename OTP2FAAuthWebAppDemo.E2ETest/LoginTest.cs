@@ -16,6 +16,8 @@ namespace OTP2FAAuthWebAppDemo.E2ETest
             Console.Clear();
             var testConfig = AppSettings.GetConfiguration().GetSection("test");
             var targetUrl = new Uri(testConfig["targetURL"]);
+            var accountName = testConfig["testUserAccountName"];
+            var password = testConfig["testUserPassword"];
             var otpKey = Base32Encoding.ToBytes(testConfig["otpKey"]);
 
             var webDriver = WebDriverFactory.Create(testConfig, out var driverService);
@@ -36,9 +38,9 @@ namespace OTP2FAAuthWebAppDemo.E2ETest
 
                 // Enter e-mail and password at Login page, then jump to 2FA Auth page.
                 StepTrace.Out("Enter e-mail address.");
-                webDriver.FindElement(By.Id("Input_Email")).SendKeys("foo@example.com");
+                webDriver.FindElement(By.Id("Input_Email")).SendKeys(accountName);
                 StepTrace.Out("Enter password.");
-                webDriver.FindElement(By.Id("Input_Password")).SendKeys("P@ssw0rd");
+                webDriver.FindElement(By.Id("Input_Password")).SendKeys(password);
                 StepTrace.Out("Click \"Login\" button.");
                 webDriver.FindElement(By.Id("btn-login")).Click();
                 wait.Until(driver => driver.Title.StartsWith("Two-factor authentication"));
