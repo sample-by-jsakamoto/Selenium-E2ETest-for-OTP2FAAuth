@@ -81,6 +81,9 @@ var otp = new Totp(otpKeyBytes);
 var twoFactorCode = otp.ComputeTotp(); // <- got 2FA coed at this time!
 ```
 
+### Appendix - Another programming language sample of computing 2FA code
+
+- [Java](https://github.com/sample-by-jsakamoto/2fa-OTPCode-generation-demo-by-Java)
 
 ## License
 
